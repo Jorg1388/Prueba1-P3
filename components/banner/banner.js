@@ -1,4 +1,4 @@
-export function banner(){
+    export function banner(){
     let div = document.createElement('div');
     div.className = "div-banner";
 
@@ -14,3 +14,4 @@ export function banner(){
 
     return div;
 }
+
