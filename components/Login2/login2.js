@@ -8,7 +8,7 @@ export function Login2() {
 
     let flecha = document.createElement('img');
     flecha.className = "flecha";
-    flecha.src = "/assets/icons/Back Button.png"; // ruta absoluta desde la raíz
+    flecha.src = "../../assets/icons/Back Button.png"; // ruta absoluta desde la raíz
     div.appendChild(flecha);
 
     let titulo = document.createElement('h1');
@@ -23,7 +23,7 @@ export function Login2() {
 
     let fashion = document.createElement('img');
     fashion.className = "fashion";
-    fashion.src = "/assets/imgs/Fashion.png";
+    fashion.src = "../../assets/imgs/Fashion.png";
     div.appendChild(fashion);
 
     let titulo2 = document.createElement('h1');
@@ -42,7 +42,7 @@ export function Login2() {
 
     let email = document.createElement('img');
     email.className = "email";
-    email.src = "/assets/icons/Envelope Simple.png";
+    email.src = "../../assets/icons/Envelope Simple.png";
     div.appendChild(email);
 
     let span7 = document.createElement('span');
@@ -52,7 +52,7 @@ export function Login2() {
 
     let error = document.createElement('img');
     error.className = "error";
-    error.src = "/assets/icons/Error Circle.png";
+    error.src = "../../assets/icons/Error Circle.png";
     div.appendChild(error);
 
     let span8 = document.createElement('span');
@@ -66,7 +66,7 @@ export function Login2() {
 
     let candado = document.createElement('img');
     candado.className = "candado";
-    candado.src = "/assets/icons/Lock.png";
+    candado.src = "../../assets/icons/Lock.png";
     div.appendChild(candado);
 
     let span9 = document.createElement('span');
@@ -76,7 +76,7 @@ export function Login2() {
 
     let check = document.createElement('img');
     check.className = "check";
-    check.src = "/assets/icons/check.png";
+    check.src = "../../assets/icons/check.png";
     div.appendChild(check);
 
     let span10 = document.createElement('span');
